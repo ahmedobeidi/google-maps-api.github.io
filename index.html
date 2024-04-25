@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    
+    <!-- THE PAGE -->
+    <div class="row"> 
+        <!-- THE FORM -->
+        <form class="col-lg-3 bg-dark">
+            <h1 class="text-success">Hotels</h1>
+            <h2 class="text-info">Search for hotels</h2>
+            <br>
+            <select class="form-select" id="selectMenu">
+                <option value="">Select a country</option>
+            </select>
+            <br>
+        </form>
+        <!-- THE MAP -->
+        <div class="col">
+            <div id="mapContainer"></div>  
+        </div>  
+    </div>
+        
+
+    
+    <script src="assets/scripts/bootstrap.bundle.min.js.js"></script> 
+    <script src="assets/scripts/script.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT-Eplqvt5z_QAWRRavN2rZ4FZ5nlzIOc&loading=async&callback=initMap">
+    </script>
+</body>
+</html>
